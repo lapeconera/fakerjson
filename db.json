@@ -1,0 +1,201 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "meetup_uid": 1,
+      "email": "rob23@gmail.com",
+      "first_name": "Robert",
+      "last_name": "Schwartz",
+      "city": "Sydney",
+      "avatar": "image1",
+      "admin": false,
+      "confirmed": true,
+      "created_at": "2014-01-01T23:28:56.782Z",
+      "updated_at": "2014-01-01T23:28:56.782Z",
+      "access_token":  "String",
+      "refresh_token": "String"
+    },
+    {
+      "id": 2,
+      "meetup_uid": 2,
+      "email": "lucyb56@gmail.com",
+      "first_name": "Dodam",
+      "last_name": "Madod",
+      "city": "Sydney",
+      "avatar": "image2",
+      "admin": false,
+      "confirmed": true,
+      "created_at": "2014-01-01T23:28:56.782Z",
+      "updated_at": "2014-01-01T23:28:56.782Z",
+      "access_token":  "String1",
+      "refresh_token": "String1"
+    },
+    {
+      "id": 3,
+      "meetup_uid": 4,
+      "email": "annasmith23@gmail.com",
+      "first_name": "Anna",
+      "last_name": "Smith",
+      "city": "Sydney",
+      "avatar": "image3",
+      "admin": false,
+      "confirmed": true,
+      "created_at": "2014-01-01T23:28:56.782Z",
+      "updated_at": "2014-01-01T23:28:56.782Z",
+      "access_token":  "String2",
+      "refresh_token": "String2"
+    },
+    {
+      "id": 4,
+      "meetup_uid": 5,
+      "email": "bobbrown432@yahoo.com",
+      "first_name": "Jimmy",
+      "last_name": "Smith",
+      "city": "Sydney",
+      "avatar": "image4",
+      "admin": false,
+      "confirmed": true,
+      "createdAt": "2014-01-01T23:28:56.782Z",
+      "updatedAt": "2014-01-01T23:28:56.782Z",
+      "access_token":  "String3",
+      "refresh_token": "String3"
+    },
+    {
+      "id": 5,
+      "meetup_uid": 4,
+      "email": "rogerbacon12@yahoo.com",
+      "first_name": "Lucky",
+      "last_name": "Luke",
+      "city": "Sydney",
+      "avatar": "image5",
+      "admin": true,
+      "confirmed": true,
+      "created_at": "2014-01-01T23:28:56.782Z",
+      "updated_at": "2014-01-01T23:28:56.782Z",
+      "access_token":  "String4",
+      "refresh_token": "String4"
+    },
+    {
+      "id": 6,
+      "meetup_uid": 7,
+      "email": "rogerbacon12@yahoo.com",
+      "first_name": "Juanma",
+      "last_name": "Handsome",
+      "city": "Sydney",
+      "avatar": "image6",
+      "admin": true,
+      "confirmed": true,
+      "created_at": "2014-01-01T23:28:56.782Z",
+      "updated_at": "2014-01-01T23:28:56.782Z",
+      "access_token":  "String5",
+      "refresh_token": "String5"
+    }
+  ],
+  
+  "events": [
+    {
+      "id": 1,
+      "link": "https://www.meetup.com/en-AU/Fishburners-Meetup/events/262219187/",
+      "name": "Dodam Lee",
+      "group": "Los bonitos",
+      "local_date": "2019-08-01",
+      "local_time": "T23:28:56.782Z",
+        "how_to_find_us": "Nowhere, Rocklands Road, North Sydney Nueva Gales del Sur",
+      "attendance_count": 300,
+      "guest_limit": 500,
+      "rsvp_limit": 200,
+      "attendees": [10],
+      "hive_attendees": ["users[0]"],
+      "ca_recommended": true,
+      "student_suggested": false
+    },
+    {
+      "id": 2,
+      "link": "https://www.meetup.com/en-AU/Fishburners-Meetup/events/262219187/",
+      "name": "Juanma don'tKnow",
+      "group": "Los bonitos",
+      "local_date": "2019-08-01",
+      "local_time": "T23:28:56.782Z",
+        "how_to_find_us": "Spain, Rocklands Road, North Sydney Nueva Gales del Sur",
+      "attendance_count": 300,
+      "guest_limit": 500,
+      "rsvp_limit": 200,
+      "attendees": [7],
+      "hive_attendees": ["users[2]"],
+      "ca_recommended": true,
+      "student_suggested": false
+    },
+    {
+      "id": 3,
+      "link": "https://www.meetup.com/en-AU/Fishburners-Meetup/events/262219187/",
+      "name": "Luke Luuuke",
+      "group": "Los bonitos",
+      "local_date": "2019-08-01",
+      "local_time": "T23:28:56.782Z",
+        "how_to_find_us": "ABC Hospital, Rocklands Road, North Sydney Nueva Gales del Sur",
+      "attendance_count": 300,
+      "guest_limit": 500,
+      "rsvp_limit": 200,
+      "attendees": [20],
+      "hive_attendees": ["users[3]"],
+      "ca_recommended": true,
+      "student_suggested": false
+    },
+    {
+      "id": 4,
+      "link": "https://www.meetup.com/en-AU/Fishburners-Meetup/events/262219187/",
+      "name": "Jimmy Jexbomb",
+      "group": "Los bonitos",
+      "local_date": "2019-08-01",
+      "local_time": "T23:28:56.782Z",
+        "how_to_find_us": "Hospital, Rocklands Road, North Sydney Nueva Gales del Sur",
+      "attendance_count": 300,
+      "guest_limit": 500,
+      "rsvp_limit": 200,
+      "attendees": [3],
+      "hive_attendees": ["users[4]"],
+      "ca_recommended": true,
+      "student_suggested": false
+    }
+
+  ],
+
+  "ratings": [
+    {
+      "id": 1,
+      "user": "users[0]",
+      "event": "event[1]",
+      "score": {
+        "food": 3,
+        "drinks": 5,
+        "talk": 3,
+        "vibe": 5
+      },
+      "comment": "Iorem Ipsum"
+    },
+      {
+        "id": 1,
+        "user": "users[2]",
+        "event": "event[0]",
+        "score": {
+          "food": 4,
+          "drinks": 1,
+          "talk": 4,
+          "vibe": 3
+          },
+        "comment": "Iorem Ipsum"
+        },
+        {
+          "id": 1,
+          "user": "users[3]",
+          "event": "event[1]",
+          "score": {
+            "food": 1,
+            "drinks": 2,
+            "talk": 5,
+            "vibe": 3
+          },
+          "comment": "Iorem Ipsum"
+          }
+  ]
+}
